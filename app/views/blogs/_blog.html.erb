@@ -1,16 +1,16 @@
 <div id="<%= dom_id blog %>">
   <p class="my-5">
-    <strong class="block text-white font-medium mb-1">Title:</strong>
-    <%= blog.title %>
+    <strong class="block text-white font-medium mb-1"><%= blog.title %></strong>
+    
   </p>
 
   <p class="my-5">
-    <strong class="block text-white font-medium mb-1">Content:</strong>
-    <%= blog.content %>
+    <strong class="block text-white font-medium mb-1"> <%= blog.content %></strong>
+   
   </p>
 
   <% if action_name != "show" %>
-    <%= link_to "Show this blog", blog, class: "block text-white font-medium" %>
+    
     <%#= link_to "Edit this blog", edit_blog_path(blog), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
     <hr class="mt-6">
   <% end %>
