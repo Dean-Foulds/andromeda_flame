@@ -10,6 +10,8 @@ gem "sprockets-rails"
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
+gem 'sass-rails'
+gem 'activeadmin', github: 'activeadmin/activeadmin', branch: 'master' 
 gem "devise"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
