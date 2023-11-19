@@ -16,14 +16,14 @@
  .banner {
     background-image: url('andromeda_flame_01.jpeg');
     background-size: contain;
-    background-position: center;
+    background-position: center top;
     padding: 400px 0;
     opacity: 87%;
   }
   
   .banner h1 {
     margin: 0;
-    color: white;
+    color: rgb(225, 223, 223);
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     font-size: 32px;
     font-weight: bold;
@@ -31,22 +31,54 @@
   
   .banner p {
     font-size: 20px;
-    color: white;
+    color: rgb(172, 166, 166);
     opacity: .7;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   }
   
   .card-category {
     background-size: cover;
-    background-position: center;
-    height: 180px;
+    background-position: center top;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(147, 143, 143);
     font-size: 24px;
     font-weight: bold;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+
+
+  .footer {
+    background: #6b4e4e;
+    display: flex;
+    align-items: center top;
+    justify-content: space-between;
+    height: 200px;
+    padding: 20px 30px;
+    color: rgb(153, 150, 150);
+    opacity: 8;
+  }
+  .footer-links {
+    display: flex;
+    align-items: center top;
+    padding-left: 80px;
+  }
+  .footer-links a {
+    color: white;
+    opacity: 0.3;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 20px;
+  }
+  .footer-links a:hover {
+    opacity: 1;
+  }
+  
+  .footer-copyrite {
+    color: rgb(133, 130, 130);
+    opacity: 0.3;
   }
